@@ -1,0 +1,142 @@
+.blog__item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blog__item--header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blog__header__user {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.user__img--wrapper {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.user__img--wrapper img {
+    height: auto;
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.user__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    transition: color 300ms;
+}
+
+.user__name:hover {
+    color: #548eaa;
+}
+
+.blog__timeout {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.blog__header__title {
+    font-weight: 600;
+}
+
+.blog__header__info {
+    display: flex;
+    gap: 1rem;
+}
+
+.--blog-info {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #929ca5;
+}
+
+.--easy svg {
+    fill: #47c270;
+}
+
+.--easy .difficult__reading--text {
+    color: #47c270;
+}
+
+.blog__header__categories {
+    max-width: 60%;
+    line-height: 1.5rem;
+}
+
+.blog__category {
+    color: #929ca5;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 300ms;
+}
+
+.blog__category:hover {
+    color: #548eaa;
+}
+
+.blog__category:not(:last-child) a::after {
+    content: ",";
+    display: inline;
+}
+
+.blog__item--body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blog__body__img--wrapper img {
+    width: 100%;
+}
+
+.blog__dody--desc {
+    line-height: 1.5rem;
+}
+
+.blog-btn {
+    width: fit-content;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    color: #548eaa;
+    border: none;
+    border-radius: 0.25rem;
+    outline: 1px solid #548eaa;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.blog-btn:hover {
+    background-color: #548eaa;
+    color: white;
+}
+
+.blog__footer--actions {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.blog__action {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    color: #929ca5;
+    cursor: pointer;
+}
+
+.blog__action p {
+    font-weight: 500;
+}

@@ -107,7 +107,7 @@
     content: '';
     display: block;
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 1px;
     background-color: black;
     top: 120%;
@@ -142,6 +142,7 @@
 
 .nav__actions {
     display: flex;
+    gap: 2rem;
 }
 
 .nav__form {}
@@ -179,8 +180,13 @@
     transform: scale(1);
 }
 
-
-
-.nav__social {}
+.nav__social {
+    display: flex;
+    gap: 1rem;
+}
 
 .nav__social-item {}
+
+.nav__social-item svg {
+    font-weight: 800;
+}
