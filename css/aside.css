@@ -35,11 +35,11 @@
 
 .sidebar__item:hover {
     outline: 1px solid #548eaa;
-    padding: 0.5rem;
+    padding: 0.5rem !important;
 }
 
-.sidebar__item:not(:last-child) {
-    margin: 1rem 0;
+.sidebar__item {
+    padding: 0.5rem 0;
 }
 
 .sidebar__item-img__wrapper {

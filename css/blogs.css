@@ -7,10 +7,6 @@
     border-radius: 0.5rem;
 }
 
-.blog__item:focus {
-    outline: 1px solid #548eaa;
-}
-
 .blog__item--header {
     display: flex;
     flex-direction: column;
